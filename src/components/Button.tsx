@@ -6,7 +6,9 @@ const Button = ({children,className}:{children: ReactNode,className?: string}) =
 const ButtonOutline = ({children,className}:{children: ReactNode,className?: string}) => <button className={`bg-[rgba(21, 25, 37, 0.80)] border-gradient min-w-[140px] py-2  px-4 rounded-md font-medium border-[1px] border-white text-sm text-white backdrop ${className}`}>
     {children}
 </button>
-const ButtonGhost = () => <></>
+const ButtonGhost = ({children,className}:{children: ReactNode,className?: string}) => <button className={`min-w-[140px] py-2 rounded-md font-medium text-sm text-white backdrop ${className}`}>
+    {children}
+</button>
 
 export {
     Button,
