@@ -2,10 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+/*FONT CONFIGURATION*/
 h1,h2,h3,h4,h5,h6{
     font-family: Inter Variable, serif;
+    color: white;
 }
 
-p,button,label{
+p,button,label,li{
     font-family: "IBM Plex Sans", sans-serif;
 }
+
+/*ADDITIONAL CLASS*/
+.section-padding{
+    @apply px-4 md:px-32
+}
+
+.text-gradient{
+    background: var(--linear, linear-gradient(90deg, #B2FEFA 0%, #0ED2F7 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.border-gradient{
+    border-color:  rgba(178, 254, 250, 1) rgba(14, 210, 247, 1);
+}
+.backdrop{
+    backdrop-filter: blur(18px);
+}
+.bg-gradient{
+    background: var(--linear, linear-gradient(90deg, #B2FEFA 0%, #0ED2F7 100%));
+}
+
