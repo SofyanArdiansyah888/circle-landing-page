@@ -5,6 +5,8 @@ import SectionService from "../components/SectionService";
 import Footer from "../components/Footer";
 import SectionTestimony from "../components/SectionTestimony";
 import SectionTeam from "../components/SectionTeam";
+import SectionTools from "../components/SectionTools";
+import SectionIssue from "../components/SectionIssue";
 
 const Index = () => {
 
@@ -13,7 +15,9 @@ const Index = () => {
         <SectionJoin/>
         <SectionService />
         <SectionTeam />
-        {/*<SectionTestimony />*/}
+        <SectionTools />
+        <SectionIssue />
+        <SectionTestimony />
         <Footer />
     </>
 }

@@ -24,7 +24,7 @@ const SectionTeam = () => {
                         <ButtonOutline className={"w-[160px]"}>
                             Get Started
                         </ButtonOutline>
-                        <Elipse className={"absolute -top-[60px] w-full"} />
+                        <Elipse className={"absolute -top-[60px] w-full"}/>
                     </div>
 
                     <Button className={"flex gap-2 md:mx-2 max-w-[160px]"}>
@@ -35,10 +35,10 @@ const SectionTeam = () => {
             </div>
             {/*IMAGE CODE*/}
             <div className={"relative"}>
-                <Code4 className={"w-full"} />
-                <Code5 className={"absolute w-full top-0 lg:top-12 left-0 lg:left-12"} />
-
-                <StaticImage src={"../images/planek.svg"} alt={"Planet"} className={"absolute right-0 lg:-right-10 top-0 lg:-top-10"} />
+                <Code4 className={"w-full"}/>
+                <Code5 className={"absolute w-[95%] top-0 lg:top-10 left-0 lg:left-7 rounded-xl"}/>
+                <StaticImage src={"../images/planek.svg"} alt={"Planet"}
+                             className={"absolute right-0 lg:-right-10 top-0 lg:-top-10"}/>
             </div>
 
         </div>

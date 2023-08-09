@@ -33,7 +33,7 @@ const SectionService = () => {
 
         </div>
         <div className={"w-full flex justify-center"}>
-            <ButtonGhost className={"mx-auto mt-12 text-lg"}>
+            <ButtonGhost className={"mx-auto mt-16 text-xl"}>
                 Explore More Service
             </ButtonGhost>
         </div>
