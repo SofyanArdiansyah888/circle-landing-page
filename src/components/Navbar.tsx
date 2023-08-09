@@ -4,7 +4,7 @@ import LogoIcon from '../images/circle.svg'
 import {menus} from "../utils/constant";
 const Navbar = () => {
 
-    return <div className={"hidden py-4 h-[70px] items-center lg:flex gap-24 container mx-auto"}>
+    return <div className={"hidden py-8 h-[80px] items-center lg:flex gap-24 container mx-auto"}>
         {/*ICON HERE*/}
         <LogoIcon  className={"w-auto h-auto"} alt={"Logo"} />
 

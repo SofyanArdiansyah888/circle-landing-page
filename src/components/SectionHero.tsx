@@ -35,8 +35,8 @@ const SectionHero = () => {
     </section>
 }
 
-const HeroText = () => <div className={"max-w-[35rem] mt-48 mb-20 lg:my-20"}>
-        <h1 className={"text-2xl  md:text-6xl font-semibold"}><span className={"text-gradient"}>Develop</span> - your app and
+const HeroText = () => <div className={"max-w-[42rem] mt-48 mb-20 lg:my-20"}>
+        <h1 className={"text-2xl  md:text-7xl font-semibold"}><span className={"text-gradient"}>Develop</span> - your app and
             web easily with circle.</h1>
         <p className={"text-gray-400 mt-6 max-w-md"}>Circle is a code development platform that gives innovators
             the speed and reliability they need to
