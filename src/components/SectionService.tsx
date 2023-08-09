@@ -17,8 +17,8 @@ const SectionService = () => {
             </div>
         </div>
 
-        <Code3 className={"mt-16"}/>
-        <div className={"flex gap-4 mt-10"}>
+        <Code3 className={"my-12 lg:mt-16 lg:mb-0 w-full h-auto lg:w-[unset]"}/>
+        <div className={"flex flex-col lg:flex-row gap-4 lg:mt-10"}>
             <Card
                 title={"Optimized Frameworks"}
                 subtitle={"A custom environment designed especially for developing and facilitating React, Vue, Angular, and\n" + "                    other frameworks."}
@@ -32,6 +32,12 @@ const SectionService = () => {
             />
 
         </div>
+        <div className={"w-full flex justify-center"}>
+            <ButtonGhost className={"mx-auto mt-12 text-lg"}>
+                Explore More Service
+            </ButtonGhost>
+        </div>
+
 
     </section>
 }
