@@ -11,6 +11,7 @@ import ZtosIcon from '../images/vector3.svg'
 import LivaIcon from '../images/vector4.svg'
 import GoldLineIcon from '../images/vector5.svg'
 import Elipse from '../images/ellipse1.svg'
+import Play from '../images/Play.svg'
 
 const SectionHero = () => {
     return <section
@@ -50,7 +51,7 @@ const HeroText = () => <div className={"max-w-[42rem] mt-48 mb-20 lg:my-20"}>
             </div>
 
             <Button className={"flex gap-2 md:mx-2 max-w-[160px]"}>
-                <StaticImage src={"../images/Play.svg"} alt={"Play Icon"}/>
+                <Play />
                 Watch a Video
             </Button>
         </div>
